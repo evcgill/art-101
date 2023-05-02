@@ -1,8 +1,25 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 6
+// Author: Evelyn (Evie) Gill
+// Date: 5/1/23
 
 // Constants
+myTransport = ["Toyota RAV4", "Beach Bike"];
+
+myMainRide = {
+  make: "Toyota",
+  model: "RAV4",
+  color: "Blizzard Pearl",
+  year: 2006,
+
+  age : function(){
+    return 2023 - this.year;
+  }
+}
+
+document.writeln("How I Get To Places: ", myTransport, "<br>");
+document.writeln("My Main Ride: <pre>",
+  JSON.stringify(myMainRide, null, '\t'), "</pre>");
+
 
 // Functions
 

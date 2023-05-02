@@ -3,14 +3,14 @@
 // Date: 04/26/2023
 
 // Constants
-make = "Toyota";
-model = "RAV4";
-color = "White";
-year = 2006;
-ownIt = true;
+var make = "Toyota";
+var model = "RAV4";
+var color = "White";
+var year = 2006;
+var ownIt = true;
 
 // Functions & Calculate
-age = 2023 - year;
+var age = 2023 - year;
 
 //output
 document.writeln("Make: " + make + "<br>");
