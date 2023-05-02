@@ -11,6 +11,7 @@ function sortUserName() {
   var userName = window.prompt("Please enter your name.");
   console.log("userName =", userName)
   userName = userName.toLowerCase();
+  userName.replace(/( )/g, "");
 
   var nameArray = userName.split('');
   console.log("nameArray =", nameArray);
