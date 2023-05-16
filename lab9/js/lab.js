@@ -1,4 +1,4 @@
-// index.js - Lab 8
+// index.js - Lab 9
 // Author: Evelyn (Evie) Gill
 // Date: 5/10/23
 
