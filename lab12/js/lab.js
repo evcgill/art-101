@@ -30,5 +30,13 @@ $("#button").click(function(){
   console.log(house);
   //adds it all together
   $("#output").html("<h2>" + "Better be..." + house + "</h2>");
-
+  if(house == "Gryffindor"){
+    $("#house").append("<p class='Gryffindor'>You are strong and brave but kinda dumb");
+  }else if(house == "Ravenclaw"){
+    $("#house").append("<p class='Ravenclaw'>You are GINORMOUS Brain but need to touch grass you nerd");
+  }else if(house == "Slythern"){
+    $("#house").append("<p class='Slythern'>Bad guys, too smart for your own good, you baddie");
+  }else if(house == "Hufflepuff"){
+    $("#house").append("<p class='Hufflepuff'>Loyal cinnamonbuns");
+  }
 })

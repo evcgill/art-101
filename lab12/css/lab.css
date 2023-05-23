@@ -14,3 +14,23 @@
     color: white;
 
   }
+
+  .Gryffindor{
+    color: red;
+    font-size: 40px;
+  }
+  .Ravenclaw{
+    color: blue;
+    font-size: 40px;
+  }
+  .Slytherin{
+    color: green;
+    font-size: 40px;
+  }
+  .Hufflepuff{
+    color: yellow;
+    font-size: 40px;
+  }
+  .house{
+    text-align: center;
+  }
