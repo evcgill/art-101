@@ -23,4 +23,14 @@ numbers.map(function(x){
 }));
 
 console.log()
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
+
+var mapResults = numbers.map(function(x){
+  var results = x * 2;
+  return results;
+});
+
+
+var outputEl = document.getElementById("output"); 
+outputEl.innerHTML = "The square root of " + numbers[0] + " is " + calculate(numbers[0]) + ". <br>" + 
+  "The square root of " + numbers + " are " + numbers.map(calculate) + ", respectively.</br>" +
+  "The double of the numbers are " + mapResults + ".";
